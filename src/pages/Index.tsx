@@ -1,6 +1,6 @@
 import Hero from "@/components/Hero";
 import Benefits from "@/components/Benefits";
-import ShopifyProducts from "@/components/ShopifyProducts";
+import Products from "@/components/Products";
 import Testimonials from "@/components/Testimonials";
 import Newsletter from "@/components/Newsletter";
 import Footer from "@/components/Footer";
@@ -10,7 +10,7 @@ const Index = () => {
     <div className="min-h-screen">
       <Hero />
       <Benefits />
-      <ShopifyProducts />
+      <Products />
       <Testimonials />
       <Newsletter />
       <Footer />
